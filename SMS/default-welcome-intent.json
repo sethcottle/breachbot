@@ -1,0 +1,146 @@
+{
+  "id": "4eefd98b-59c8-484d-a2b6-d384a245caff",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Greetings human! I'm BreachBot. 👋  I'm here to help assist you with taking steps to safeguard yourself from the Equifax breach."
+        },
+        {
+          "type": 0,
+          "speech": "If I stop responding, just resend the last message. Let me know when you're ready to start by texting me \"Get Started\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509131317,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "d8e287c1-e287-4843-a884-979c66e81cec",
+      "data": [
+        {
+          "text": "What's up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9101cad2-7c7f-4bce-ba84-ce04d41668df",
+      "data": [
+        {
+          "text": "Sup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aafe0151-e8f2-4312-ace4-03225a9a642a",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "04ffd6fc-3a70-42e7-a1a6-bef3746a2695",
+      "data": [
+        {
+          "text": "Hello there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "5de73028-8b66-437a-b6b4-6592d2466e5e",
+      "data": [
+        {
+          "text": "Hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "9735f0ee-d2c6-4087-b075-ea0792affd34",
+      "data": [
+        {
+          "text": "Hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "c0433434-ac0b-4815-9d28-6f80172941dd",
+      "data": [
+        {
+          "text": "Hola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "78fe15f2-c46b-4eee-94a6-97f874d02179",
+      "data": [
+        {
+          "text": "Get Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509129550,
+      "isAuto": false
+    },
+    {
+      "id": "0738438e-52b9-46d9-94c4-f55eb9482275",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1509129550,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

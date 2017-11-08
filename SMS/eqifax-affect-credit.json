@@ -1,0 +1,103 @@
+{
+  "id": "c8e2f5db-3b42-449c-8a7a-6163027e3869",
+  "name": "eqifax-affect-credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Nope! All of your current credit accounts will continue to behave as they have."
+        },
+        {
+          "type": 0,
+          "speech": "Your current creditors will still report your account info to the agencies as before and your credit score will still go up and down."
+        },
+        {
+          "type": 0,
+          "speech": "Here's where we can go now. Just say \"Is it free?\" or if you're ready to move on, say \"Continue\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509133687,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "50cf6e2f-a6ea-4601-952c-67762227ea43",
+      "data": [
+        {
+          "text": "credit score"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132638,
+      "isAuto": false
+    },
+    {
+      "id": "2c592239-6656-4026-b900-9aed4b4cfbfd",
+      "data": [
+        {
+          "text": "score"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132638,
+      "isAuto": false
+    },
+    {
+      "id": "f168a678-72db-4d5d-8bc6-d2e3f2ca1af0",
+      "data": [
+        {
+          "text": "affect"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132638,
+      "isAuto": false
+    },
+    {
+      "id": "5bc20589-38c7-46b1-9d49-a64365aab31c",
+      "data": [
+        {
+          "text": "Credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132638,
+      "isAuto": false
+    },
+    {
+      "id": "8088cb47-acb1-4305-9f30-6b7dbe4e2cc6",
+      "data": [
+        {
+          "text": "Does it affect my credit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132638,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

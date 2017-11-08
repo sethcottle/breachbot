@@ -1,0 +1,79 @@
+{
+  "id": "202b724c-b3a7-4e09-8882-d1e820ed53cf",
+  "name": "equifax-fraud",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There are situations where freezing your credit may not be the best option, so you should consider that before placing a freeze."
+        },
+        {
+          "type": 0,
+          "speech": "If you are about to make a major purchase like financing a vehicle or getting a home loan. It could be a costly hassle to place a freeze."
+        },
+        {
+          "type": 0,
+          "speech": "Here are a few resources about credit fraud alerts:"
+        },
+        {
+          "type": 0,
+          "speech": "https://www.consumer.ftc.gov/articles/0279-extended-fraud-alerts-and-credit-freezes"
+        },
+        {
+          "type": 0,
+          "speech": "https://www.identitytheft.gov/#what-to-do-right-away"
+        },
+        {
+          "type": 0,
+          "speech": "When you're ready to continue just say \"Last Step\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509132841,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7de7ddc1-e663-467e-926c-49660adaaab3",
+      "data": [
+        {
+          "text": "Continue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132841,
+      "isAuto": false
+    },
+    {
+      "id": "0b5bd5b3-92e8-4c67-ae88-2235959b756e",
+      "data": [
+        {
+          "text": "Fraud"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132841,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

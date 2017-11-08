@@ -1,0 +1,91 @@
+{
+  "id": "29f5239b-f341-4604-b35d-25c7af563edf",
+  "name": "equifax-start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Breaches like Equifax are scary, and I know you're worried. It's important to take a step back from this and relax."
+        },
+        {
+          "type": 0,
+          "speech": "The first thing you should do is obtain a copy of your current credit report."
+        },
+        {
+          "type": 0,
+          "speech": "You'll want to keep a copy on file so that you can identify anything new that may pop up in the future."
+        },
+        {
+          "type": 0,
+          "speech": "You can read about Credit Reports and Scores from the following: https://www.usa.gov/credit-reports#item-35087"
+        },
+        {
+          "type": 0,
+          "speech": "I recommend using: https://www.annualcreditreport.com to get your current credit report."
+        },
+        {
+          "type": 0,
+          "speech": "When you're ready to continue, just say \"What's Next\". 👍"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509129880877,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "513ef307-d591-4174-b0dc-df605de6311f",
+      "data": [
+        {
+          "text": "Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "254ddb80-b9c9-4578-ac02-7855a43e9170",
+      "data": [
+        {
+          "text": "Start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "26bb402a-bf32-45ae-a1ad-afcd8c68077d",
+      "data": [
+        {
+          "text": "Get Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

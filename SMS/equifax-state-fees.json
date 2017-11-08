@@ -1,0 +1,115 @@
+{
+  "id": "1bfc0acf-d72a-41e6-bedc-4e83728e5b1b",
+  "name": "equifax-state-fees",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The fees to initiate a freeze vary by state. It looks like Equifax is temporarily waiving their fee."
+        },
+        {
+          "type": 0,
+          "speech": "Find the fees for your state: https://breachbot.io/fees.html"
+        },
+        {
+          "type": 0,
+          "speech": "Here's where we can go now. Just say \"Does it affect my credit?\" or if you're ready to move on \"Continue\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509133706,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "68b1ff9b-b3e9-467f-a166-3e6ac93bc279",
+      "data": [
+        {
+          "text": "Fee"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1509132585,
+      "isAuto": false
+    },
+    {
+      "id": "18b05d12-c1cc-44c2-90f7-e58fea03ca0f",
+      "data": [
+        {
+          "text": "State Fee"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132585,
+      "isAuto": false
+    },
+    {
+      "id": "800866e6-f600-4b49-b4cf-6164de978785",
+      "data": [
+        {
+          "text": "Price"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509132585,
+      "isAuto": false
+    },
+    {
+      "id": "6eb40935-7b8b-44bf-8716-6c12ce3dc0f6",
+      "data": [
+        {
+          "text": "Cost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "896b21a8-c69f-46a0-8881-a147109385ea",
+      "data": [
+        {
+          "text": "Costs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b9896dab-457e-40f8-8a95-e4443f120a5f",
+      "data": [
+        {
+          "text": "Is it free"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

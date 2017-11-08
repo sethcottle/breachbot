@@ -1,0 +1,91 @@
+{
+  "id": "8b35e594-8068-47db-adc1-26609c0a32af",
+  "name": "equifax-freeze",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It's time to freeze your credit reports. This will prevent new credit inquiries, even from you, until you lift the freeze."
+        },
+        {
+          "type": 0,
+          "speech": "Here is a list of US credit bureaus and how to contact them:"
+        },
+        {
+          "type": 0,
+          "speech": "Equifax\nAutomated phone system (recommended): +18003499960\nFreeze it online: https://www.freeze.equifax.com"
+        },
+        {
+          "type": 0,
+          "speech": "TransUnion\nAutomated phone system (recommended): +18889098872\nFreeze it online: https://freeze.transunion.com"
+        },
+        {
+          "type": 0,
+          "speech": "Experian\nAutomated phone system (recommended): +18883973742\nFreeze it online: https://www.experian.com/freeze"
+        },
+        {
+          "type": 0,
+          "speech": "Here's what I can help with now. Just say: \"Is it free?\" \"Does it affect my credit?\" or if you're ready to move on say \"Continue\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509133724,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "5bd7c050-6e0b-4f45-8833-86a040692c14",
+      "data": [
+        {
+          "text": "What's"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f2f8655a-1ae0-4337-98bc-3c5e9c664f1e",
+      "data": [
+        {
+          "text": "Next"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "59dbc932-3e11-4bda-8533-602cb9e38c76",
+      "data": [
+        {
+          "text": "What's Next"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

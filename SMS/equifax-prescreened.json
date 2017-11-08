@@ -1,0 +1,87 @@
+{
+  "id": "d4f2a021-f162-4669-9391-031bb8b64436",
+  "name": "equifax-prescreened",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Have you ever opened your mailbox to mound of prescreened credit offers? 😡"
+        },
+        {
+          "type": 0,
+          "speech": "That probably isn't the highlight of your day. You can actually use the links below to opt out of receiving Prescreened Credit Offers!"
+        },
+        {
+          "type": 0,
+          "speech": "Call: +18885678688\nOnline: https://www.optoutprescreen.com"
+        },
+        {
+          "type": 0,
+          "speech": "That's it for now. You just took some big steps to helping reduce your risk from the Equifax breach. 🎉"
+        },
+        {
+          "type": 0,
+          "speech": "Be sure to chat with me on Facebook Messenger if you'd like to try my basic online Security Checkup. 🛡"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509133800,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "eef6a095-48d9-48bc-9f50-a71e15293406",
+      "data": [
+        {
+          "text": "Step"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509133210,
+      "isAuto": false
+    },
+    {
+      "id": "d69cc2e1-a1cc-497d-b46b-a47f231dfc4d",
+      "data": [
+        {
+          "text": "Last"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509133210,
+      "isAuto": false
+    },
+    {
+      "id": "c6d83b9f-c3c2-4a92-8dc2-855ba6549eef",
+      "data": [
+        {
+          "text": "Last Step"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1509133210,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
